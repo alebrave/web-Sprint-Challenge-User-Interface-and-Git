@@ -70,6 +70,21 @@ p {
     width: 800px;
     margin: 0 auto;
 }
+header{
+    width: 100%;
+    display: flex;
+}
+header nav{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 2%;
+    font-size: 14px;
+}
+.header nav a{
+    color: white;
+    text-decoration: none;
+}
 
 .top-content {
     display: flex;
